@@ -24,6 +24,7 @@ describe("Math", () => {
     // Assert
     expect(container).toContainHTML(`<span>9</span>`);
   });
+
   test("multiplication", async () => {
     // Arrange
     const { container, debug } = render(
